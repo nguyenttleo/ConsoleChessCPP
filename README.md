@@ -34,6 +34,8 @@ The project includes the following files:
 
 4. Get ready to unleash your strategic prowess! The console will display the current board state, and you can enter your moves using standard chess notation.
 
+![Notation-Sheet](Algebraic-Notation.png)
+
 ## Acknowledgements
 
 - [chessprogramming.org](https://www.chessprogramming.org/): A valuable source of knowledge and resources for chess programming enthusiasts.
