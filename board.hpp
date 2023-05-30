@@ -6,10 +6,8 @@
 #include <string>
 #include <stdexcept>
 
-#ifndef HENGINE_BOARD_HPP
-#define HENGINE_BOARD_HPP
-
-#endif //HENGINE_BOARD_HPP
+#ifndef BOARD_HPP
+#define BOARD_HPP
 
 typedef std::bitset<64> bigNumba;
 
@@ -98,3 +96,14 @@ int getFwdBitIdx(int index, int step);
 int getBackBitIdx(int index, int step);
 int getLeftBitIdx(int index, int step);
 int getRightBitIdx(int index, int step);
+
+// Declare functions
+void updatePieceCount();
+std::bitset<64> capturePiece(std::bitset<64> currBitset, int takenPiece, int currIndex, int newIndex);
+std::bitset<64> movePawn(int color, int currIndex, int newIndex, int promotionChoice = 90);
+std::bitset<64> moveKnight(int color, int currIndex, int newIndex);
+std::bitset<64> moveBishop(int color, int currIndex, int newIndex);
+std::bitset<64> moveRook(int color, int currIndex, int newIndex);
+std::bitset<64> moveQueen(int color, int currIndex, int newIndex);
+
+#endif // BOARD_HPP
