@@ -1,6 +1,6 @@
 # ConsoleChessCPP
 
-![Chessboard](chessboard.png)
+![Chessboard](chessboard-29630_1280.png)
 
 ConsoleChessCPP is an efficient chess game designed in C++ that brings the world of chess to your terminal. It is a minimalistic yet powerful implementation that leverages bitboards and bitmasks to maximize efficiency and minimize memory usage.
 
